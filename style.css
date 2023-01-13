@@ -1,3 +1,4 @@
+/* styling all the elements*/
 
 body,.head,.container{
     display: flex;
@@ -5,6 +6,7 @@ body,.head,.container{
     justify-content: center;
 
 }
+/* body section*/
 body{
     min-width: 100vh;
     padding-top: 100px;
@@ -27,6 +29,7 @@ body{
     font-weight: 600;
     margin: 38px 0;
 }
+/* conatiner*/
 .head .container{
     width: 135px;
     background-color: azure;
@@ -51,6 +54,7 @@ body{
     width: 100px;
     font-size: 19px;
 }
+/* styling of button*/
 button{
     width: 218px;
     outline:none;

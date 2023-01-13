@@ -15,6 +15,8 @@ selectMenu = document.querySelectorAll("select"),
 
  ringtone = new Audio("./ringtone/alarm.mp3");
 
+//giving loops to hour min and units
+
 for(let i=12;i>0;i--){
     i= i<10 ? "0"+i :i;
     let option =`<option value ="${i}">${i}</option>`;
